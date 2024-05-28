@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/me/static/css/main.08b9744e.css",
-    "main.js": "/me/static/js/main.85e47cb6.js",
+    "main.css": "/me/static/css/main.3498e688.css",
+    "main.js": "/me/static/js/main.8112540a.js",
     "static/js/453.1407b060.chunk.js": "/me/static/js/453.1407b060.chunk.js",
     "static/media/Vercetti-Regular.woff": "/me/static/media/Vercetti-Regular.0dd3e8fe3d08e8d674da.woff",
     "static/media/Vercetti-Regular.woff2": "/me/static/media/Vercetti-Regular.3240a79f6cc30e821934.woff2",
     "index.html": "/me/index.html",
-    "main.08b9744e.css.map": "/me/static/css/main.08b9744e.css.map",
-    "main.85e47cb6.js.map": "/me/static/js/main.85e47cb6.js.map",
+    "main.3498e688.css.map": "/me/static/css/main.3498e688.css.map",
+    "main.8112540a.js.map": "/me/static/js/main.8112540a.js.map",
     "453.1407b060.chunk.js.map": "/me/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.08b9744e.css",
-    "static/js/main.85e47cb6.js"
+    "static/css/main.3498e688.css",
+    "static/js/main.8112540a.js"
   ]
 }
