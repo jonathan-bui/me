@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0b281019.css",
+    "main.js": "/static/js/main.1670c6ff.js",
+    "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
+    "static/media/Vercetti-Regular.woff": "/static/media/Vercetti-Regular.0dd3e8fe3d08e8d674da.woff",
+    "static/media/Vercetti-Regular.woff2": "/static/media/Vercetti-Regular.3240a79f6cc30e821934.woff2",
+    "index.html": "/index.html",
+    "main.0b281019.css.map": "/static/css/main.0b281019.css.map",
+    "main.1670c6ff.js.map": "/static/js/main.1670c6ff.js.map",
+    "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b281019.css",
+    "static/js/main.1670c6ff.js"
+  ]
+}
