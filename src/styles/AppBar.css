@@ -1,0 +1,17 @@
+.AppBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-style: solid;
+  border-color: var(--app-bar-color);
+  border-width: 1;
+  height: var(--app-bar-height);
+}
+
+.AppBar__title {
+  font-size: 20px;
+  color: #333;
+
+  border-style: dotted;
+}
