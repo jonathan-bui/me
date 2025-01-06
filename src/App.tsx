@@ -6,14 +6,14 @@ import "./index.css";
 function App() {
   return (
     <div className="App font-custom">
-      <div className="w-full sm:h-screen h-full flex flex-col sm:flex-row lg:p-12 sm:p-6 p-6">
+      <div className="w-full sm:h-screen h-full flex flex-col sm:flex-row p-2">
         <div className="flex flex-col">
           <div className="bg-gray-100 text-slate-800/90 p-6 m-2 rounded-lg shadow-lg shadow-slate-600/50">
             <div className="flex-row font-custom uppercase">
-              <h2 className="text-3xl text-center tracking-tighter">
+              <h2 className="text-3xl  text-center tracking-tighter">
                 Jonathan Bui
               </h2>
-              <h2 className="text-md text-center tracking-tighter leading-3">
+              <h2 className="text-md text-purple-800 text-center tracking-tighter leading-3">
                 Software Engineer
               </h2>
             </div>
@@ -35,7 +35,7 @@ function App() {
                     viewBox="0 0 24 17"
                     strokeWidth={1.5}
                     stroke="currentColor"
-                    className="size-4"
+                    className="size-4 text-purple-800"
                   >
                     <path
                       strokeLinecap="round"
@@ -44,16 +44,18 @@ function App() {
                     />
                   </svg>
 
-                  <h2 className="text-sm tracking-wide">jonbui825@gmail.com</h2>
+                  <h2 className="text-sm tracking-wide leading-2">
+                    jonbui825@gmail.com
+                  </h2>
                 </span>
                 <span className="flex space-x-1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
-                    viewBox="0 0 24 23"
+                    viewBox="0 0 24 22"
                     strokeWidth={1.5}
                     stroke="currentColor"
-                    className="size-4"
+                    className="size-4 text-purple-800"
                   >
                     <path
                       strokeLinecap="round"
@@ -68,10 +70,10 @@ function App() {
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
-                    viewBox="0 0 24 25"
+                    viewBox="0 0 24 21"
                     strokeWidth={1.5}
                     stroke="currentColor"
-                    className="size-4"
+                    className="size-4 text-purple-800"
                   >
                     <path
                       strokeLinecap="round"
@@ -85,35 +87,47 @@ function App() {
                     />
                   </svg>
 
-                  <h2 className="text-sm">Philadelphia, PA</h2>
+                  <h2 className="text-sm ">Philadelphia, PA</h2>
                 </span>
               </div>
             </div>
           </div>
           <div className="">
-            <div className="overflow-y-auto h-full bg-blue-700 m-2 text-gray-200 p-6 rounded-lg shadow-md shadow-slate-600/50">
+            <div className="overflow-y-auto bg-purple-800 m-2 text-gray-200 p-6 rounded-lg shadow-md shadow-slate-600/50">
               <div className="font-custom">
                 <div className="mb-2">
                   <h2 className="text-md tracking-tighter uppercase">Skills</h2>
                   <ul className="ml-6 list-disc">
                     <li className="">
                       <span className="text-sm">
-                        Languages: JavaScript, TypeScript
+                        Languages: JavaScript, TypeScript, Web Components,
+                        Python, C#, Java
                       </span>
                     </li>
                     <li className="">
                       <span className="text-sm">
-                        Frameworks: NextJS, ExpressJS
+                        Frameworks: NextJS, AngularJS, ExpressJS, .NET
                       </span>
                     </li>
                     <li className="">
                       <span className="text-sm">
-                        Libraries: ReactJS, TailwindCSS, D3
+                        Libraries: ReactJS, TailwindCSS, Styled Components, D3,
+                        JQuery, Lodash, Date-fns, Moment
                       </span>
                     </li>
                     <li className="">
                       <span className="text-sm">
-                        Languages: JavaScript, TypeScript
+                        Testing: Jest, Cypress, SonarQube, Browserstack
+                      </span>
+                    </li>
+                    <li className="">
+                      <span className="text-sm">
+                        Tools: Postgres, SST, Docker, Jenkins
+                      </span>
+                    </li>
+                    <li className="">
+                      <span className="text-sm">
+                        Workflow: Monday, JIRA, GitHub, AWS
                       </span>
                     </li>
                   </ul>
@@ -142,217 +156,159 @@ function App() {
         <div className="min-w-screen sm:w-full overflow-y-auto m-2 bg-gray-100 shadow-lg shadow-slate-600/50 rounded-lg">
           <div className="">
             <div>
-              <div className="flex-1 space-y-4 sm:p-12 p-4">
-                <div className="sm:fixed lg:right-14 sm:right-8 right-8 text-center sm:rounded-none sm:rounded-l-lg rounded bg-blue-700 text-gray-300 p-2 shadow-lg shadow-slate-600/50">
+              <div className="flex-1 space-y-4 sm:p-8 p-4">
+                <div className="sm:fixed sm:right-4 right-8 text-center sm:rounded-none sm:rounded-l-lg rounded bg-purple-800 text-gray-300 p-2 shadow-lg shadow-slate-600/50">
                   <h2 className="text-xl uppercase tracking-tighter">
                     Work Experience
                   </h2>
                 </div>
-                <div className="text-slate-800/90">
+                <div className="text-slate-800/90 space-y-4">
                   <div>
                     <h2 className="text-lg">Software Engineer</h2>
                     <h2 className="text-md">TREND Community</h2>
+                    <h2 className="text-sm">February 2023 - present</h2>
                     <ul className="ml-6 list-disc">
                       <li className="">
                         <span className="text-sm">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.
+                          Work closely with founding team, backend engineers,
+                          product managers and designers to
+                          inform/refine/validate design concepts
                         </span>
                       </li>
                       <li className="">
                         <span className="text-sm">
-                          Ut enim ad minim veniam, quis nostrud exercitation
-                          ullamco laboris nisi ut aliquip ex ea commodo
-                          consequat.
+                          Break down complex features into distributable
+                          engineering tasks and rollout plans
                         </span>
                       </li>
                       <li className="">
                         <span className="text-sm">
-                          Duis aute irure dolor in reprehenderit in voluptate
-                          velit esse cillum dolore eu fugiat nulla pariatur.
+                          Experiment with and advocate for new systems, design
+                          patterns, and tooling
+                        </span>
+                      </li>
+                      <li className="">
+                        <span className="text-sm">
+                          Own meaningful parts of our services/products,
+                          improving performance and addressing scalability
+                          limits
+                        </span>
+                      </li>
+                      <li className="">
+                        <span className="text-sm">
+                          Work in a fast-paced, high-growth environment that
+                          values diversity of talent, excellence of product, and
+                          exciting engineering challenges at scale
+                        </span>
+                      </li>
+                      <li className="">
+                        <span className="text-sm">
+                          Manage cross functional collaboration with UI and
+                          backend developers
+                        </span>
+                      </li>
+                      <li className="">
+                        <span className="text-sm">
+                          Proactively identifies and addresses performance
+                          bottlenecks in the codebase, optimizing algorithms,
+                          database queries, and frontend rendering to enhance
+                          application responsiveness and scalability.
+                        </span>
+                      </li>
+                      <li className="">
+                        <span className="text-sm">
+                          Design, develop, ship, and maintain medium-sized
+                          features autonomously
+                        </span>
+                      </li>
+                      <li className="">
+                        <span className="text-sm">
+                          Ensure code quality via unit, component, and
+                          integration tests
+                        </span>
+                      </li>
+                      <li className="">
+                        <span className="text-sm">
+                          Maintain a strict adherence to ISO standards and HIPPA
+                          compliances
+                        </span>
+                      </li>
+                      <li className="">
+                        <span className="text-sm">
+                          Design and implement high fidelity data visualizations
+                        </span>
+                      </li>
+                      <li className="">
+                        <span className="text-sm">
+                          Minimize the amount of 3rd party dependencies to
+                          alleviate bloat and mitigate reliance on dependencies
+                        </span>
+                      </li>
+                      <li className="">
+                        <span className="text-sm">
+                          Conduct user interviews to ensure application
+                          usability and accesibility
                         </span>
                       </li>
                     </ul>
                   </div>
                   <div>
                     <h2 className="text-lg">Software Engineer</h2>
-                    <h2 className="text-md">TREND Community</h2>
+                    <h2 className="text-md">Elsevier</h2>
+                    <h2 className="text-sm">May 2017 - June 2023</h2>
                     <ul className="ml-6 list-disc">
                       <li className="">
                         <span className="text-sm">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.
+                          Owned the development of products, tools, and
+                          libraries used globally and internally
                         </span>
                       </li>
                       <li className="">
                         <span className="text-sm">
-                          Ut enim ad minim veniam, quis nostrud exercitation
-                          ullamco laboris nisi ut aliquip ex ea commodo
-                          consequat.
+                          Engaged with the team in gathering requirements,
+                          day-to-day activities such as daily standups, sprint
+                          planning, retros, deploying features in production and
+                          on-call
                         </span>
                       </li>
                       <li className="">
                         <span className="text-sm">
-                          Duis aute irure dolor in reprehenderit in voluptate
-                          velit esse cillum dolore eu fugiat nulla pariatur.
-                        </span>
-                      </li>
-                    </ul>
-                  </div>
-                  <div>
-                    <h2 className="text-lg">Software Engineer</h2>
-                    <h2 className="text-md">TREND Community</h2>
-                    <ul className="ml-6 list-disc">
-                      <li className="">
-                        <span className="text-sm">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.
+                          Nurtured a productive relationship with UX and Product
+                          to ensure world class quality for applications used by
+                          1000s of physicians, nurses, and students daily
                         </span>
                       </li>
                       <li className="">
                         <span className="text-sm">
-                          Ut enim ad minim veniam, quis nostrud exercitation
-                          ullamco laboris nisi ut aliquip ex ea commodo
-                          consequat.
+                          Used and contributed to a best-in-class in-house
+                          design system
                         </span>
                       </li>
                       <li className="">
                         <span className="text-sm">
-                          Duis aute irure dolor in reprehenderit in voluptate
-                          velit esse cillum dolore eu fugiat nulla pariatur.
-                        </span>
-                      </li>
-                    </ul>
-                  </div>
-                  <div>
-                    <h2 className="text-lg">Software Engineer</h2>
-                    <h2 className="text-md">TREND Community</h2>
-                    <ul className="ml-6 list-disc">
-                      <li className="">
-                        <span className="text-sm">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.
+                          Trained and mentored junior developers through pair
+                          programming and lunch and learns
                         </span>
                       </li>
                       <li className="">
                         <span className="text-sm">
-                          Ut enim ad minim veniam, quis nostrud exercitation
-                          ullamco laboris nisi ut aliquip ex ea commodo
-                          consequat.
+                          Designed and implemented internalization features such
+                          as translation, localization, and rtl support that
+                          enhanced experience for foreign audiences
                         </span>
                       </li>
                       <li className="">
                         <span className="text-sm">
-                          Duis aute irure dolor in reprehenderit in voluptate
-                          velit esse cillum dolore eu fugiat nulla pariatur.
-                        </span>
-                      </li>
-                    </ul>
-                  </div>
-                  <div>
-                    <h2 className="text-lg">Software Engineer</h2>
-                    <h2 className="text-md">TREND Community</h2>
-                    <ul className="ml-6 list-disc">
-                      <li className="">
-                        <span className="text-sm">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.
+                          Transitioned a formally AngularJS application to React
+                          enabling compatibility with in house design system and
+                          reusability of components across products
                         </span>
                       </li>
                       <li className="">
                         <span className="text-sm">
-                          Ut enim ad minim veniam, quis nostrud exercitation
-                          ullamco laboris nisi ut aliquip ex ea commodo
-                          consequat.
-                        </span>
-                      </li>
-                      <li className="">
-                        <span className="text-sm">
-                          Duis aute irure dolor in reprehenderit in voluptate
-                          velit esse cillum dolore eu fugiat nulla pariatur.
-                        </span>
-                      </li>
-                    </ul>
-                  </div>
-                  <div>
-                    <h2 className="text-lg">Software Engineer</h2>
-                    <h2 className="text-md">TREND Community</h2>
-                    <ul className="ml-6 list-disc">
-                      <li className="">
-                        <span className="text-sm">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.
-                        </span>
-                      </li>
-                      <li className="">
-                        <span className="text-sm">
-                          Ut enim ad minim veniam, quis nostrud exercitation
-                          ullamco laboris nisi ut aliquip ex ea commodo
-                          consequat.
-                        </span>
-                      </li>
-                      <li className="">
-                        <span className="text-sm">
-                          Duis aute irure dolor in reprehenderit in voluptate
-                          velit esse cillum dolore eu fugiat nulla pariatur.
-                        </span>
-                      </li>
-                    </ul>
-                  </div>
-                  <div>
-                    <h2 className="text-lg">Software Engineer</h2>
-                    <h2 className="text-md">TREND Community</h2>
-                    <ul className="ml-6 list-disc">
-                      <li className="">
-                        <span className="text-sm">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.
-                        </span>
-                      </li>
-                      <li className="">
-                        <span className="text-sm">
-                          Ut enim ad minim veniam, quis nostrud exercitation
-                          ullamco laboris nisi ut aliquip ex ea commodo
-                          consequat.
-                        </span>
-                      </li>
-                      <li className="">
-                        <span className="text-sm">
-                          Duis aute irure dolor in reprehenderit in voluptate
-                          velit esse cillum dolore eu fugiat nulla pariatur.
-                        </span>
-                      </li>
-                    </ul>
-                  </div>
-                  <div>
-                    <h2 className="text-lg">Software Engineer</h2>
-                    <h2 className="text-md">TREND Community</h2>
-                    <ul className="ml-6 list-disc">
-                      <li className="">
-                        <span className="text-sm">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.
-                        </span>
-                      </li>
-                      <li className="">
-                        <span className="text-sm">
-                          Ut enim ad minim veniam, quis nostrud exercitation
-                          ullamco laboris nisi ut aliquip ex ea commodo
-                          consequat.
-                        </span>
-                      </li>
-                      <li className="">
-                        <span className="text-sm">
-                          Duis aute irure dolor in reprehenderit in voluptate
-                          velit esse cillum dolore eu fugiat nulla pariatur.
+                          Participated in hackathons and synced with other Front
+                          end engineers at monthly demo meetings and yearly
+                          Front End summits
                         </span>
                       </li>
                     </ul>
